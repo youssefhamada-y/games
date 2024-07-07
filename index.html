@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nerko+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="position-relative bggrey">
+    <header class="w-100" id="hideimage">
+        <img src="./images/wraper.png" alt="good game">
+    </header>
+    <section class="overflow-hidden  ">
+        <nav>
+            <nav class="navbar navbar-expand-lg  container rounded-4 sticky-top shadow-lg w-75 ">
+                <div class="container-fluid">
+                    <div class="d-flex flex-row justify-content-center align-items-center">
+                        <img class="minimizeicon" src="./images/logo-sm.png" alt="logo games">
+                        <h5 class="ps-2 newfont fs-3">
+                            GAME REVIEWS
+                        </h5>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class=" " id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active comfortafont text-primary  " data-category="MMORPG"
+                                aria-current="page" href="#">MMORPG</a>
+                            <a class="nav-link comfortafont " data-category="SHOOTER" href="#">SHOOTER</a>
+                            <a class="nav-link comfortafont" data-category="SAILING" href="#">SAILING</a>
+                            <a class="nav-link comfortafont" data-category="PERMADEATH" href="#">PERMADEATH</a>
+                            <a class="nav-link comfortafont" data-category="SUPERHERO" href="#">SUPERHERO</a>
+                            <a class="nav-link comfortafont" data-category="PIXEL" href="#">PIXEL</a>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+        <div class="row  ms-2 mt-5 g-3" id="gamedata">
+
+        </div>
+        <div class="position-absolute top-0 bottom-0 start-0 end-0 bggrey h-50 d-none appear ">
+            <div class="container pt-4">
+                <i class="fa-solid fa-close position-absolute end-0 text-secondary fs-3 p-2 close"></i>
+                <h2 class="text-white">Details Game</h2>
+            </div>
+            <div class="d-flex flex-row " id="deatailscontent">
+
+            </div>
+        </div>  
+    </section>
+    <div class="lds-roller  d-none">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+.w-100 img {
+    width: 100%;
+    height: 33vh;
+    background-color: rgba(21, 23, 25, 0.9)
+}
+
+.navbar {
+    background-color: #3A497B;
+}
+
+section {
+    background-color: #272B30;
+}
+
+.minimizeicon {
+    width: 40px;
+}
+
+.newfont {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+}
+
+.comfortafont {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: 12px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.comfortafont:hover {
+    color: #0D6EFD;
+}
+
+.paddingleft {
+    padding-left: 110px !important;
+}
+
+.marginleft {
+    margin-left: 90px;
+}
+
+.backgroundcolorgrey {
+    background-color: #272B30 !important;
+}
+
+.colorgrey {
+    color: #939598;
+    font-family: "Comfortaa", sans-serif;
+
+}
+
+h6 {
+    font-family: "Comfortaa", sans-serif;
+}
+
+.grey {
+    background-color: #32383E;
+}
+
+.inner {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.inner:hover {
+    transform: scale(105%);
+    -webkit-transform: scale(105%);
+    -moz-transform: scale(105%);
+    -ms-transform: scale(105%);
+    -o-transform: scale(105%);
+}
+
+.hovercolor {
+    color: white;
+    background-color: #4A6792;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.hovercolor:hover {
+    background-color: #0D6EFD;
+    color: white;
+}
+
+.bggrey {
+    background-color: #272B30;
+}
+.close{
+    cursor: pointer;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+}
+.close:hover{
+    border: #3A497B solid 2px;
+}
+.lds-roller,
+.lds-roller div,
+.lds-roller div:after {
+    box-sizing: border-box;
+}
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7.2px;
+    height: 7.2px;
+    border-radius: 50%;
+    background: currentColor;
+    margin: -3.6px 0 0 -3.6px;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+    top: 62.62742px;
+    left: 62.62742px;
+}
+
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+    top: 67.71281px;
+    left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+    top: 70.90963px;
+    left: 48.28221px;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+    top: 70.90963px;
+    left: 31.71779px;
+}
+
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+    top: 67.71281px;
+    left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+    top: 62.62742px;
+    left: 17.37258px;
+}
+
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12.28719px;
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
